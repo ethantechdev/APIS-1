@@ -1,0 +1,27 @@
+body {
+    position: relative;
+    margin: 30px;
+    background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+}
+
+div {
+    color: brown
+}
+
+button {
+    background-color: lightsalmon;
+    color:darkred;
+    font-weight:bolder;
+    font-size: 45px;
+    border-radius: 45px;
+    padding: 15px;
+}
+
+p1 {
+    font-size: 70px;
+    color:rgb(0, 218, 218);
+    font-family:monospace; 
+    text-shadow: 2px 2px 4px whitesmoke;
+}
+
+

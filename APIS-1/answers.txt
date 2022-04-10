@@ -1,0 +1,41 @@
+Swapi
+
+1 https://swapi.dev/api/people/4
+2 https://swapi.dev/api/planets/2
+3 https://swapi.dev/api/starships/10
+4 https://swapi.dev/api/people/2 , https://swapi.dev/api/species/2/
+5 https://swapi.dev/api/people/10 ,         "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/4/",
+        "https://swapi.dev/api/films/5/",
+        "https://swapi.dev/api/films/6/"
+6 https://swapi.dev/api/starships/?search=YT-1300
+
+Social Mountain
+
+1 POST requires body, in this case, a JSON object with a text to text key value pair.
+2 The GET request returns the data at the specified endpoint, in this case, either all messages.
+3 https://practiceapi.devmountain.com/api/posts/?id=597
+4 200: Returns an array of filtered posts
+  409: Request query is missing required text property.
+5: 
+
+https://practiceapi.devmountain.com/api/posts/
+  {
+    "text": "Ivan"
+  }
+6 https://practiceapi.devmountain.com/api/posts/?id=600
+
+
+  {
+    "text": "color is black"
+  }
+
+7  https://practiceapi.devmountain.com/api/posts/filter/?text=blue
+8 json; charset=utf-8
+9 Request was missing req.query.id
+10 it ignores it, sends back all of the posts and ignores the query.
+
+
+
